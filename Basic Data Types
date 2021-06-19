@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdio>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int a;
+    long b; 
+    char d;
+    float e;
+    double f;
+    
+    cin>>a>>b>>d>>e>>f;
+    
+    
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<d<<endl;
+    cout << fixed << setprecision(3) << e << endl;
+    cout << fixed << setprecision(9) << f << endl;
+    return 0;
+}
